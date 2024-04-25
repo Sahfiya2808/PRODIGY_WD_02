@@ -1,0 +1,83 @@
+
+  body
+  {
+    background-color: peachpuff;
+  }
+  .stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center;
+    
+    
+   
+    
+  }
+   
+  .stopwatch img {
+    width: 100%; /* Make image fill container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .title {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .controls button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .controls button:nth-child(1) {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .controls button:nth-child(2) {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .controls button:nth-child(3) {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .laps {
+    margin-top: 20px;
+    height: 20px;
+  }
+  
+  .laps ul {
+    list-style: none;
+    
+    
+  }
+  
+  .laps h3 {
+    color: #007bff;
+    
+  }
+  
+  .laps li {
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    
+  }
+  
